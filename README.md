@@ -33,7 +33,7 @@
 
 ## 隐私与数据
 
-仓库源码及 Release 安装包不包含任何使用者的账号、密码、Cookie、课程数据文件、备注或日历事件；首页截图按原图展示了部分课程和作业名称。运行后，应用将数据保存在当前 Mac 用户的 `~/Library/Application Support/CourseWatch/`，其中 `data.json` 保存课程和状态，`credentials.json` 保存自动登录账号。账号文件权限设为仅当前 Mac 用户可读（`0600`），但未额外加密。请勿上传或分享该目录，也不要在 Issue 中粘贴账号、Cookie 或课程页面原文。
+仓库及 Release 安装包不包含任何使用者的账号、密码、Cookie、课程数据、备注或日历事件。运行后，应用将数据保存在当前 Mac 用户的 `~/Library/Application Support/CourseWatch/`，其中 `data.json` 保存课程和状态，`credentials.json` 保存自动登录账号。账号文件权限设为仅当前 Mac 用户可读（`0600`），但未额外加密。请勿上传或分享该目录，也不要在 Issue 中粘贴账号、Cookie 或课程页面原文。
 
 网页登录会话由 macOS WebKit 存储在本机。应用只访问教学网、北大问学和用户配置的 Gradescope 课程；具体网页读取逻辑可查看 `CourseWatch/` 中的源码。
 
