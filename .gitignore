@@ -1,0 +1,8 @@
+.DS_Store
+dist/
+CourseWatch/.toolchain/
+CourseWatch/AppIcon.iconset/
+CourseWatch/AppIcon.icns
+credentials.json
+data.json
+*.log
